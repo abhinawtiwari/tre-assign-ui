@@ -1,0 +1,25 @@
+.dash-header {
+  background: #fff;
+  height: 55px;
+  width: 84%;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  color: #3bbfd3;
+  position: fixed;
+  top: 55px;
+  z-index: 2;
+}
+.dh-container {
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dh-container__left {
+  display: flex;
+  align-items: center;
+}
+.dh-container__right {
+  display: flex;
+  align-items: center;
+}

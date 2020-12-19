@@ -1,1 +1,127 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+// body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: #fafafa 0% 0% no-repeat padding-box;
+  opacity: 1;
+  // background-color: #fafafa;
+}
+
+/* Default colors bg etc */
+:root {
+  --lblue: #3087eb;
+  --bgblue: #3759c6;
+  --gray: #808080;
+  --dgray: #585858;
+  --lgray: #f7f7f7;
+  --bgred: #f44336;
+  --bggreen: #029000;
+  --bgyellow: #feb019;
+  --border-color: #d4d4d4;
+  --border-dark: #e6e6e6;
+  --vsmall-font: 0.75rem;
+  --small-font: 0.825rem;
+  --medium-font: 1rem;
+  --large-font: 3rem;
+}
+
+button,
+input,
+textarea,
+select {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.make-relative {
+  position: relative;
+}
+
+.make-block {
+  display: block !important;
+}
+
+.pos-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pos-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.bolder {
+  font-weight: 800;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.no-wrap {
+  width: 100%;
+  overflow: hidden !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* font sizes */
+.font12 {
+  font-size: 12px !important;
+}
+
+.font13 {
+  font-size: 13px !important;
+}
+
+.font14 {
+  font-size: 14px !important;
+}
+
+.font15 {
+  font-size: 15px !important;
+}
+
+.font16 {
+  font-size: 16px !important;
+}
+
+.font18 {
+  font-size: 18px !important;
+}
+
+.font20 {
+  font-size: 20px !important;
+}
+
+/* font sizes END*/
+.chart-card {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  background: #fff;
+  border-radius: 3px;
+}

@@ -1,0 +1,23 @@
+<div class="pushContent">
+  <app-dash-header></app-dash-header>
+  <app-top-card></app-top-card>
+  <div class="row">
+    <div class="col-md-6">
+      <app-area-chart></app-area-chart>
+    </div>
+    <div class="col-md-6">
+      <app-yearly-sales-chart></app-yearly-sales-chart>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let f of feedData">
+      <app-social [feedName]="f.name" [feedDesc]="f.description"></app-social>
+    </div>
+    <!-- <div class="col-md-4">
+      <app-social feedName="" feedDesc=""></app-social>
+    </div>
+    <div class="col-md-4">
+      <app-social feedName="" feedDesc=""></app-social>
+    </div> -->
+  </div>
+</div>
